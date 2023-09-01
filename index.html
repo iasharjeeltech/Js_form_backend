@@ -19,6 +19,7 @@
                 </div>
                 <div class="contact-form" style="max-width: 450px; margin: 0 auto;">
                     <div class="form-mid">
+                        <!-- normal form created here -->
                         <form action="javascript:sendmail()" method="post" id="contact-form">
 
                             <div class="field">
@@ -43,7 +44,7 @@
             </div>
         </div>
     </section>
-
+    <!-- Simple Mail Transfer Protocol (SMTP) link  -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
 
@@ -61,7 +62,7 @@
             Email.send({
                 Host: "smtp.elasticemail.com",
                 Username: "webbears24@gmail.com",
-                Password: "A9B71321044729E0EED503D2BF16AEF42690",
+                Password: "A9B71321044729E0EED503D2BF16AEF42690", //password created using elasticmail website
                 To: 'iasharjeel@gmail.com',
                 From: "webbears24@gmail.com",
 
